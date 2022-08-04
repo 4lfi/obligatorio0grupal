@@ -2,7 +2,8 @@ h1{
     text-align: center;
 }
 h3 {
-    color: brown;
+    color: brown; 
+    background-color: blue;
 }
 table{
     border-collapse: collapse;
