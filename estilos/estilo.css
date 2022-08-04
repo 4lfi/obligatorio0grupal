@@ -1,7 +1,9 @@
 h1{
     text-align: center;
 }
-
+h3 {
+    color: brown;
+}
 table{
     border-collapse: collapse;
     text-align: center;
