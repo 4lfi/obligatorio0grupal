@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/estilo.css">
     <title>Grupal</title>
     <script src="/js/script.js"></script>
 </head>
+
 <body>
+    
+    <h2 style="background-color: green; color: white;"> Esto es una prueba </h2>
+
+    <marquee> SUAREZ VUELVE A SU CASA </marquee>
+=======
+    <marquee> POR CHISTOSOS PERDIERON TODOS hola</marquee>
+
     <h1>Vuelve el "Pistolero"</h1>
     <p>Dieciséis años y un mes (5875 días) después de su último partido 
         con la camiseta de Nacional, en un 1-1 ante Central Español, 
@@ -16,6 +25,7 @@
         quien se llevo una victoria 1-0.
     </p>
     <h3>Aqui algunas estadisticas del 9 de la seleccion uruguaya</h3>
+    
     <table>
         <thead>
             <tr>
@@ -23,7 +33,43 @@
                 <th>Club</th>
             </tr>
         </thead>
-        <tbody></tbody>
+        <tbody>
+            <tr>
+                <td>Nacional</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Liverpool</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td>Barcelona</td>
+                <td>198</td>
+            </tr>
+            <tr>
+                <td>Atletico de Madrid</td>
+                <td>34</td>
+            </tr>
+        </tbody>
     </table>
+    <p id="ola">probando 123</p>
+
+    <div>
+        Fecha:<input type="date"><br>
+        Producto:<input type="text" id="produc"><br>
+        Precio:<input type="number" id="pre"><br>
+        <button id="guardar" onclick="agregar()"> Agregar a la lista </button>
+    </div>
+    <div>
+        <table>
+            <th>Producto</th>
+            <th>Precio</th>
+            <th>   </th>
+            <tbody id="tabla">
+    
+            </tbody>
+        </table>
+    </div>
+
 </body>
 </html>
