@@ -2,8 +2,7 @@ h1{
     text-align: center;
 }
 h3 {
-    color: brown; 
-    background-color: blue;
+    font-style: italic; font-size: larger; color: blue ;
 }
 table{
     border-collapse: collapse;
