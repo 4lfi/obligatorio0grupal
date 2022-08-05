@@ -11,3 +11,7 @@ table{
 #ola {
     font-style: italic; font-size: larger; color: blue ;
 }
+
+body {
+    background-color: lightblue;
+}

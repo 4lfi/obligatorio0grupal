@@ -1,3 +1,3 @@
 function saludar(){
-    alert("Bienvendi@s");
+    alert("Bienvenid@s");
 }
