@@ -10,5 +10,5 @@ table{
     text-align: center;
 }
 #ola {
-    color: blue;
+    font-style: italic; font-size: larger; color: blue ;
 }
