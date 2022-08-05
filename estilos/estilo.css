@@ -1,9 +1,10 @@
-h1{
-    text-align: center;
+body {
+    color: blueviolet;
 }
-h3 {
-    font-style: italic; font-size: larger; color: blue ;
-}
+
+
+
+
 table{
     border-collapse: collapse;
     text-align: center;
