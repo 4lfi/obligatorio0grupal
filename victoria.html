@@ -4,17 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba grupal 0</title>
+    <title>Haga su pedido</title>
+    <link href="estilos/vic-estilo.css" rel="stylesheet"> 
+    <script src="js/vic.js"></script>
 </head>
 <body>
-    <h1>Trabajo colaborativo en GitHub</h1>
-    <div class="cuadro">
-        <b>Pautas grupales</b>
-        <ul>
-        -Crear sitio web sencillo, tema a elección.
-        -En la cuenta de uno de los miembros crear un repositorio público, y agregar el sitio creado en él.
-        -Invitar a los demás miembros del grupo a colaborar en ese repositorio.
-        </ul>
-    </div>
+    <img src="/img/logo.jpg" alt="Logo de Los Pollos Hermanos" class="logo">
+    <h1>Bienvenidos/as a LOS POLLOS HERMANOS</h1>
+<hr>
+<div><img src="/img/equipo.jpg" alt="Equipo de Los Pollos Hermanos" class="imagen2"></div>
+<div class="alinear">
+    <b>Menú:<select name="producto" id="menú">
+        <option value="" selected disabled style="color:lightgrey">-¿Qué vas a comer hoy?-</option>
+        <option id="1">Porción de Nuggets simple (10 unid.)</option>
+        <option id="2">Porción de Nuggets extra (15 unid.)</option>
+        <option id="3">Hamburguesa Big Chicken</option>
+        <option id="4">Hamburguesa Nopollo (vegan)</option>
+    </select> 
+    <br>
+    Guarnición:<select name="producto" id="guar">
+        <option value="" aria-placeholder="" style="color:lightgrey">-Para más placer-</option>
+        <option>Fritas tamaño chico</option>
+        <option>Fritas tamaño grande</option>
+        <option>Aros de cebolla (6 unid.)</option>
+        <option>Aros de cebolla (12 unid.)</option>
+    </select><br>
+    Bebida:<select name="producto" id="bebida">
+        <option value="" selected disabled style="color:lightgrey">-¿Qué vas a tomar?-</option>
+        <option>Coca cola 600ml</option>
+        <option>Sprite 600ml</option>
+        <option>Paso de los toros 600ml</option>
+        <option>Salus con gas 600ml</option>
+    </select><br>
+    <button type="text" id="submit" value="Crear pedido" onclick="agregarATabla()">Crear orden</button></b>
+</div>
+<div>
+    <table>
+    <tr class="alinear"><th>Menú</th><th>Guarnición</th><th>Bebida</th><th>Quitar</th></tr>
+    <tbody id="tabla">
+    </tbody>
+    </table>
+    <br>
+    <button type="submit" id="enviar" value="Enviar pedido" onclick="" style="display:none">Enviar Pedido</button>
+</div>
 </body>
 </html>
